@@ -2,44 +2,38 @@
 <html>
 
 <head>
-    <title>html and css demo</title>
+    <title>CSS Layout Assignment_updated</title>
     <link rel="stylesheet" type="text/css" href="./styles/style.css" media="screen" />
 </head>
     
 <body>
 
-    <div class="top-cont">
-        <div class = "text"> <strong> Website.com </strong></div>
-        <div class = "text2">
-            <span style="text-decoration: underline; color: red;"> home</span> &nbsp; &nbsp; about &nbsp; &nbsp; more </div>
-    </div>
-    
-    <div class="main">    
-        <div class="left">
-        <div class = "left-text; width: 5%"> <h3> <strong>Website.com</strong></h3></div>
 
-        </div>    
-
-        <div class="right">
-            <div class="right-text">    
-                <h3>Website of the year</h3>
-                <p>According to <b>everyone</b>. If you don't believe it <br>
-                then <span style="color: purple;"> just don't get it. </span></p>
-                <p> Sample text sample text sample text <br>
-                        sample text sample text  sample text<br>
-                        sample text sample text   sample text<br>
-                        sample text sample text  sample text <br>
-                        sample text sample text  sample text <br>
-                        sample text sample text sample text </p>
+    <header>
+        <div class="header-inner">
+            <div class="website-name">
+                Website.com
             </div>
+           
+            <div class="links">
+                <div class="site-link active">home</div>
+                <div class="site-link">about</div>
+                <div class="site-link">more</div>
+            </div>
+        </div>
+    </header>
 
-         </div>
-    </div>
-
-     
-    
-
-
+    <main>
+        <div class="main-inner left">
+            <h1>Website.com</h1>
+        </div>
+        
+        <div class="main-inner right">
+            <h2>Website of the year</h2>
+            <p>According to everyone. If you don't believe it then <span style = "color: purple;">you just don't get it</span></p>
+            <p>Sample text sample text sample text sample text sample text sample text sample text sample text sample text</p>
+        </div>
+    </main>
 
 </body>
 
